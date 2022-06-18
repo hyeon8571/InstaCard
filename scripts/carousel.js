@@ -74,6 +74,7 @@ function updateIndicator(carouselElem, currentIndex) {
 }
 
 function updateSlideButtonVisible(carouselElem, currentIndex, liCount) {
+    
     var left = carouselElem.querySelector('.slide-left');
     var right = carouselElem.querySelector('.slide-right');
 
