@@ -23,6 +23,7 @@ function addEventToCarousel(carouselElem) {
     }
 }
 
+//클로져 함수
 function createListenerSlide(carouselElem) {
     
     return function(event) {
